@@ -8,8 +8,8 @@ class App extends StatelessWidget {
       title: 'Sample XD',
       home: Main(),
       theme: ThemeData(
-        primaryColor: Color(0xFF6100ED),
-        accentColor: Color(0xFFED00AE),
+        primaryColor: Colors.blue,
+        accentColor: Colors.pinkAccent,
       ),
     );
   }

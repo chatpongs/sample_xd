@@ -4,7 +4,7 @@ class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFF6100ED),
+      color: Theme.of(context).primaryColor,
       alignment: Alignment.center,
       child: _buildContactButton(context),
     );
